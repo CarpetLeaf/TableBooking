@@ -1,0 +1,17 @@
+{{ define "index" }}
+{{ template "header" }}
+
+
+<form action="/chose_restaurant" method="post">
+	<input type="text" name="persons" id="persons" placeholder="Введите количество человек" class="button1"><br>
+	<input type="text" name="hour" id="hour" placeholder="Введите желаемый час">:
+	<input type="text" name="minutes" id="minutes" placeholder="Введите желаемые минуты"><br>
+	<button class="button1">Подобрать ресторан</button>
+</form>
+</div>
+</div>
+</body>
+
+</html>
+
+{{ end }}
